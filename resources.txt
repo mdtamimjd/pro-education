@@ -1,0 +1,4 @@
+color
+bright orange = #ff5421
+btn bright orange = #ff5421
+email box bg color = #171f32

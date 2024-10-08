@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.body{
+    background-color: rgb(250, 250, 250);
+}
+.textContent{
+    text-align: center;
+    padding: 20px 0;
+}
+.textContent p{
+    color: #ff5421;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: large;
+    font-family: sans-serif;
+}
+.textContent h2{
+    font-size: 32px;
+    margin-top: -10px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+}
+.mySwiper{
+    width: 75%;
+    margin: auto;
+}
+
+
+

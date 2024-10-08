@@ -1,0 +1,400 @@
+footer{
+    padding-top: 200px;
+    background-color: rgb(250, 250, 250);
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+/* email box */
+.emailContainer{
+    position: absolute;
+    top: -100px;
+    width: 75%;
+    margin: auto;
+    padding: 40px 0 ;
+    background-color: #171f32;
+    border-radius: 4px;
+}
+.emailBox{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.emailTextBox{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.emailImg{
+    width: 50px;
+}
+.emailHeader{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    padding-top: 10px;
+}
+.formBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.email{
+    grid-column: 1/4;
+    padding: 25px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+.submit{
+    outline: none;
+    border: none;
+    background-color: #ff5421;
+    color: white;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.submit:hover{
+    background-color: #ff845e;
+    transition: all .5s;
+}
+/* footer box */
+.footerBox{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 250px;
+}
+
+/* copy right content */
+.copyRigth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid gray;
+}
+.copyRigth p{
+    font-size: 20px;
+}
+.copyRigthText{
+    text-decoration: none;
+    cursor: pointer;
+}
+.copyRigthText:hover{
+    color: #ff5421;
+}
+.copyRigthUl{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-family: 500;
+}
+.copyRigthUl :first-child{
+    list-style: none;
+}
+.copyRigthUl li{
+    color: #ff845e;
+}
+.copyRigthUl li a{
+    text-decoration: none;
+    color: white;
+}
+.copyRigthUl li a:hover{
+    color: #ff5421;
+}
+
+/* footer container content */
+.footerItemContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.info{
+    width: 95%;
+
+}
+.infoLogo{
+    width: 80%;
+}
+.address{
+
+}
+.addressBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.addressIcon{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff5421;
+}
+.addressItem{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.courses{
+
+}
+.coursesDiv{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.coursesLi{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.coursesListIcon{
+    font-size: 8px;
+    color: #ff5421;
+}
+.back{
+    color: rgb(151, 151, 151);
+}
+.postContaine{
+    margin-top: 40px;
+}
+.postImages{
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+}
+.postItem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* common class */
+.praH4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.pra{
+    font-size: 16px;
+    font-weight: 300;
+}
+.hPra{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.linkBtnA{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+.linkBtnA:hover{
+    color: #ff5421;
+}
+.iconBar{
+    font-size: 26px;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.iconBar:hover{
+    color: #ff5421;
+}
+.text_header{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.text_header i{
+    width: 50%;
+    background-color: #ff5421;
+    height: 2.5px;
+}
+.tomato{
+    color: #ff5421;
+}
+
+/* responsive */
+@media (max-width:1400px){
+    /* email box */
+    .emailContainer{
+        width: 95%;
+    }
+    .emailImg{
+        width: 50px;
+    }
+    .emailHeader{
+        font-size: 30px;
+    }
+    .email{
+        padding: 20px 25px;
+    }
+    /* footer box */
+    .footerBox{
+        width:95%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 200px;
+    }
+    
+    /* footer container content */
+    .footerItemContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+    }
+    .addressIcon{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1000px){
+    footer{
+        margin-top: 300px;
+    }
+    /* email box */
+    .emailContainer{
+        position: absolute;
+        top: -250px;
+        width: 90%;
+    }
+    .emailTextBox{
+        column-gap: 20px;
+    }
+    .emailImg{
+        width: 40px;
+    }
+    .emailHeader{
+        font-size: 28px;
+    }
+    .form{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .email{
+        grid-column: 1/4;
+        padding: 22px 20px;
+        font-size: 18px;
+
+    }
+    .submit{
+        grid-column: 4/6;
+        font-size: 18px;
+    }
+    /* footer box */
+    .footerBox{
+        width: 90%;
+        padding-top: 100px;
+
+    }
+    
+    
+    /* footer container content */
+    .footerItemContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+    }
+    .infoLogo{
+        width: 200px;
+    }
+    /* copy right content */
+.copyRigth{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+}
+.copyRigth p{
+    font-size: 18px;
+}
+.copyRigthUl{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-family: 500;
+}
+.copyRigthUl :first-child{
+    list-style:  disc;
+}
+.copyRigthUl li{
+    color: #ff845e;
+}
+.copyRigthUl li a{
+    text-decoration: none;
+    color: white;
+}
+.copyRigthUl li a:hover{
+    color: #ff5421;
+}
+    
+}
+
+
+@media (max-width:800px){
+    .emailContainer{
+        top: -280px;
+    }
+.emailBox{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.emailTextBox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    align-items: start;
+}
+.form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.email{
+    grid-column: 1/5;
+    padding: 15px;
+    font-size: 16px;
+} 
+.submit{
+    grid-column: 5/6;
+    font-size: 16px;
+}
+}

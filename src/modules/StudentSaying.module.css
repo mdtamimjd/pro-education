@@ -1,0 +1,42 @@
+.body{
+    width: 100%;
+    /* height: 700px; */
+    padding: 30px 0;
+    background-image: url("/public/images/sayingBanner.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+.textContent{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.textContent p{
+    color: #ff5421;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: large;
+    font-family: sans-serif;
+}
+.textContent h2{
+    font-size: 32px;
+    margin-top: -10px;
+    font-weight: 800;
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+.conterBox{
+    width: 75%;
+    margin: auto;
+}
+
+@media (max-width:800px){
+    .body{
+        padding: 20px 0;
+    }
+    .conterBox{
+        width: 95%;
+        margin: auto;
+    }
+}
+
